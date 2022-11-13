@@ -1,0 +1,166 @@
+.order_cart {
+    width:100vw;
+    display: inline-block;
+}
+
+.order_box {
+    width: 90vw;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(225, 225, 225);
+    margin: 20px auto;
+    border-radius: 3px;
+}
+
+.order_left {
+    background-color: #f3f3;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    margin: 3px;
+    background-color: rgba(180, 180, 180, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    line-height: 30px;
+
+}
+
+h5 {
+    font-size: 19px;
+    padding: 10px;
+}
+
+.order_images {
+    width: 30vw;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.order_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.order_description {
+    color: gray;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+/* Right Container */
+
+.order_right {
+    width: 45vw;
+    min-height: 10px;
+    align-items: center;
+    align-items: flex-start;
+    margin: 3px;
+    background-color: rgba(83, 80, 83, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    line-height: 30px;
+}
+
+
+
+h3 {
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
+
+.order_price {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+
+}
+
+.order_btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.place_order {
+    width: 40%;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+    background-color: orange;
+    padding: 10px;
+}
+
+.remove_order {
+    width: 40%;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    color: #fdfdfd;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+    background-color: red;
+    padding: 10px;
+}
+
+a {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .order_cart{
+        width: 100%;
+    }
+    .order_box {
+        width: 95%;
+        display: block;
+        flex-direction: column;
+    }
+
+    .order_left,
+    .order_right {
+        width: 90%;
+        display: block;
+    }
+
+    .order_images {
+        display: block;
+        width: 100%;
+    }
+
+
+    h5 {
+        font-size: 14px;
+    }
+
+    .order_description {
+        line-height: 10px;
+        font-weight: 600;
+    }
+
+    .order_btn {
+        flex-direction: column;
+    }
+    .place_order {
+        width: 100%;
+    }
+
+    .remove_order {
+        width: 100%;
+    }
+}

@@ -6,7 +6,6 @@
 
 .product_Card {
     width: 90%;
-    /* background-color: #fff; */
     display: flex;
     flex-wrap: wrap;
     margin: auto;

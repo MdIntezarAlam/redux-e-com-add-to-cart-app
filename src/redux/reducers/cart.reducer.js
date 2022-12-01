@@ -26,7 +26,7 @@ const cartReducer = (state = initialState, action) => {
             const currentProduct = action.payload.data;
             const newProducts = state.products.map(product => {
                 if (product.id === currentProduct.id) {
-                    found = true;
+                    found = true;   
                     product.quantity += 1;
                 }
                 return product;

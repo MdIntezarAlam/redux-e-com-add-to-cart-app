@@ -33,7 +33,7 @@ const ProductDetails = () => {
 
   return (
     <div className='pro_container'>
-      {!selectedProduct ? <p>Product details couldn't find!</p> : <div className='pro_box'>
+              {!selectedProduct ? <p>Product details couldn't find!</p> : <div className='pro_box'>
         <div className='details_Card'>
           <img src={selectedProduct.image} className="details_img" />
           <div className='details_right'>
